@@ -1,6 +1,6 @@
 'use client'
 
-import { ArrowRight, Play, Sparkles } from 'lucide-react'
+import { ArrowRight, Sparkles } from 'lucide-react'
 
 export default function Hero() {
   return (
@@ -30,23 +30,14 @@ export default function Hero() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="btn-primary flex items-center space-x-2 group">
+              <a href="#products" className="btn-primary flex items-center justify-center space-x-2 group">
                 <span>Explore Products</span>
                 <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
-              </button>
-              
-              <button className="btn-secondary flex items-center space-x-2">
-                <Play className="h-4 w-4" />
-                <span>Watch Demo</span>
-              </button>
+              </a>
             </div>
 
             {/* Stats */}
-            <div className="grid grid-cols-3 gap-8 pt-8">
-              <div className="text-center">
-                <div className="text-3xl font-bold text-primary-600">10K+</div>
-                <div className="text-sm text-gray-600">Happy Users</div>
-              </div>
+            <div className="grid grid-cols-2 gap-8 pt-8 max-w-md">
               <div className="text-center">
                 <div className="text-3xl font-bold text-wellness-600">15+</div>
                 <div className="text-sm text-gray-600">Natural Flavors</div>

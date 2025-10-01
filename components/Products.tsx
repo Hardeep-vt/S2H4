@@ -1,13 +1,13 @@
 'use client'
 
-import { Star, ShoppingCart, Heart } from 'lucide-react'
+import { Star, Heart } from 'lucide-react'
 
 export default function Products() {
   const products = [
     {
       id: 1,
       name: 'Fresh Mint',
-      description: 'Cool and refreshing mint flavor for instant energy and focus',
+      description: 'Cool and refreshing mint flavor for instant energy',
       price: '$29.99',
       rating: 4.9,
       reviews: 234,
@@ -120,12 +120,8 @@ export default function Products() {
                   </span>
                 </div>
 
-                <div className="flex items-center justify-between">
-                  <span className="text-2xl font-bold text-gray-900">{product.price}</span>
-                  <button className="btn-primary flex items-center space-x-2">
-                    <ShoppingCart className="h-4 w-4" />
-                    <span>Add to Cart</span>
-                  </button>
+                <div className="text-center">
+                  <span className="text-3xl font-bold text-gray-900">{product.price}</span>
                 </div>
               </div>
             </div>
