@@ -52,15 +52,14 @@ export default function Hero() {
           {/* Right Column - Visual */}
           <div className="relative">
             <div className="relative z-10">
-              {/* Main Product Image Placeholder */}
+              {/* Main Product Image */}
               <div className="bg-gradient-to-br from-primary-100 to-wellness-100 rounded-3xl p-12 shadow-2xl">
                 <div className="bg-white rounded-2xl p-8 shadow-lg">
-                  <div className="w-32 h-48 mx-auto bg-gradient-to-b from-primary-200 to-wellness-200 rounded-xl flex items-center justify-center">
-                    <div className="text-center space-y-2">
-                      <div className="w-8 h-16 bg-gradient-to-b from-primary-400 to-wellness-400 rounded-full mx-auto"></div>
-                      <div className="text-xs font-medium text-gray-600">S2H4</div>
-                    </div>
-                  </div>
+                  <img 
+                    src="/images/products/main-product.png" 
+                    alt="S2H4 Smokeless Inhaler" 
+                    className="w-full h-auto max-w-xs mx-auto object-contain"
+                  />
                 </div>
               </div>
             </div>

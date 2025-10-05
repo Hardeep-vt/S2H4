@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { Menu, X, Leaf } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -19,14 +19,16 @@ export default function Header() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
-            <div className="bg-gradient-to-r from-primary-500 to-wellness-500 p-2 rounded-xl">
-              <Leaf className="h-6 w-6 text-white" />
-            </div>
+          <a href="#home" className="flex items-center space-x-3">
+            <img 
+              src="/images/logo/s2h4-logo.png" 
+              alt="S2H4 Logo" 
+              className="h-12 w-12 object-contain"
+            />
             <span className="text-2xl font-bold bg-gradient-to-r from-primary-600 to-wellness-600 bg-clip-text text-transparent">
               S2H4
             </span>
-          </div>
+          </a>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">

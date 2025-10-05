@@ -135,12 +135,6 @@ export default function Products() {
             </div>
           ))}
         </div>
-
-        <div className="text-center mt-12">
-          <button className="btn-secondary">
-            View All Products
-          </button>
-        </div>
       </div>
     </section>
   )

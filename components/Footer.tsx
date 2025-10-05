@@ -1,6 +1,5 @@
 'use client'
 
-import { Leaf } from 'lucide-react'
 
 export default function Footer() {
   const footerLinks = {
@@ -21,10 +20,12 @@ export default function Footer() {
           <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-8">
             {/* Brand Section */}
             <div className="lg:col-span-2">
-              <div className="flex items-center space-x-2 mb-6">
-                <div className="bg-gradient-to-r from-primary-500 to-wellness-500 p-2 rounded-xl">
-                  <Leaf className="h-6 w-6 text-white" />
-                </div>
+              <div className="flex items-center space-x-3 mb-6">
+                <img 
+                  src="/images/logo/s2h4-logo.png" 
+                  alt="S2H4 Logo" 
+                  className="h-10 w-10 object-contain"
+                />
                 <span className="text-2xl font-bold">S2H4</span>
               </div>
               <p className="text-gray-400 leading-relaxed max-w-md">
