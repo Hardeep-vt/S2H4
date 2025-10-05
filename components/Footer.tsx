@@ -25,7 +25,7 @@ export default function Footer() {
                 <div className="bg-gradient-to-r from-primary-500 to-wellness-500 p-2 rounded-xl">
                   <Leaf className="h-6 w-6 text-white" />
                 </div>
-                <span className="text-2xl font-bold">H2S4</span>
+                <span className="text-2xl font-bold">S2H4</span>
               </div>
               <p className="text-gray-400 leading-relaxed max-w-md">
                 Revolutionizing wellness with natural, smokeless inhalers. 
@@ -67,7 +67,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 py-6">
           <div className="text-center">
             <p className="text-gray-400 text-sm">
-              © 2024 H2S4. All rights reserved. Made with ❤️ for your wellness.
+              © 2024 S2H4. All rights reserved. Made with ❤️ for your wellness.
             </p>
           </div>
         </div>

@@ -31,7 +31,7 @@ export default function About() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-            Why Choose <span className="bg-gradient-to-r from-primary-600 to-wellness-600 bg-clip-text text-transparent">H2S4</span>?
+            Why Choose <span className="bg-gradient-to-r from-primary-600 to-wellness-600 bg-clip-text text-transparent">S2H4</span>?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             We're revolutionizing wellness with innovative smokeless inhaler technology 

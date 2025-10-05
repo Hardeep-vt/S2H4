@@ -69,7 +69,7 @@ export default function Products() {
             Explore Our <span className="bg-gradient-to-r from-primary-600 to-wellness-600 bg-clip-text text-transparent">Natural Flavors</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Each H2S4 inhaler is carefully crafted with premium natural oils 
+            Each S2H4 inhaler is carefully crafted with premium natural oils 
             to deliver authentic flavors and wellness benefits.
           </p>
         </div>

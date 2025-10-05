@@ -46,7 +46,7 @@ export default function Benefits() {
     {
       name: 'Sarah Chen',
       role: 'Yoga Instructor',
-      content: 'H2S4 has transformed my wellness routine. The lavender flavor helps me stay centered during busy days.',
+      content: 'S2H4 has transformed my wellness routine. The lavender flavor helps me stay centered during busy days.',
       rating: 5
     },
     {
@@ -58,7 +58,7 @@ export default function Benefits() {
     {
       name: 'Emma Rodriguez',
       role: 'Student',
-      content: 'As a student, stress relief is crucial. H2S4 helps me stay calm during exams and study sessions.',
+      content: 'As a student, stress relief is crucial. S2H4 helps me stay calm during exams and study sessions.',
       rating: 5
     }
   ]
@@ -71,7 +71,7 @@ export default function Benefits() {
             Your Wellness <span className="bg-gradient-to-r from-primary-600 to-wellness-600 bg-clip-text text-transparent">Journey</span> Starts Here
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Discover the transformative benefits of natural aromatherapy with H2S4 smokeless inhalers.
+            Discover the transformative benefits of natural aromatherapy with S2H4 smokeless inhalers.
           </p>
         </div>
 

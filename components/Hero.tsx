@@ -24,7 +24,7 @@ export default function Hero() {
               </h1>
               
               <p className="text-xl text-gray-600 leading-relaxed max-w-lg">
-                Experience the future of wellness with H2S4 smokeless inhalers. 
+                Experience the future of wellness with S2H4 smokeless inhalers. 
                 Pure natural oil flavors that refresh your senses and uplift your spirit.
               </p>
             </div>
@@ -58,7 +58,7 @@ export default function Hero() {
                   <div className="w-32 h-48 mx-auto bg-gradient-to-b from-primary-200 to-wellness-200 rounded-xl flex items-center justify-center">
                     <div className="text-center space-y-2">
                       <div className="w-8 h-16 bg-gradient-to-b from-primary-400 to-wellness-400 rounded-full mx-auto"></div>
-                      <div className="text-xs font-medium text-gray-600">H2S4</div>
+                      <div className="text-xs font-medium text-gray-600">S2H4</div>
                     </div>
                   </div>
                 </div>

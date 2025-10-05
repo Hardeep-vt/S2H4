@@ -1,6 +1,6 @@
-# H2S4 - Smokeless Wellness Inhalers
+# S2H4 - Smokeless Wellness Inhalers
 
-A modern, responsive website for H2S4, showcasing natural smokeless inhalers that promote wellness through pure aromatherapy.
+A modern, responsive website for S2H4, showcasing natural smokeless inhalers that promote wellness through pure aromatherapy.
 
 ## Features
 
@@ -64,13 +64,11 @@ This project is configured for easy deployment on Vercel:
 
 ## Brand Story
 
-H2S4 represents the future of wellness through innovative smokeless inhaler technology. Our products deliver pure, natural oil flavors that refresh your senses and uplift your spirit, promoting a healthier lifestyle without harmful substances.
+S2H4 represents the future of wellness through innovative smokeless inhaler technology. Our products deliver pure, natural oil flavors that refresh your senses and uplift your spirit, promoting a healthier lifestyle without harmful substances.
 
-## Contact
+## Images
 
-- **Email**: hello@h2s4.com
-- **Phone**: +1 (555) 123-4567
-- **Location**: San Francisco, CA
+For instructions on adding your product photos and logo, see [IMAGE_GUIDE.md](IMAGE_GUIDE.md)
 
 ---
 

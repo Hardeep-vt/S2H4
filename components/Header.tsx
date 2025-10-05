@@ -24,7 +24,7 @@ export default function Header() {
               <Leaf className="h-6 w-6 text-white" />
             </div>
             <span className="text-2xl font-bold bg-gradient-to-r from-primary-600 to-wellness-600 bg-clip-text text-transparent">
-              H2S4
+              S2H4
             </span>
           </div>
 
