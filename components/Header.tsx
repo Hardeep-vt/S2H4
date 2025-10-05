@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { Menu, X, Leaf, Heart } from 'lucide-react'
+import { Menu, X, Leaf } from 'lucide-react'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -39,10 +39,6 @@ export default function Header() {
                 {item.name}
               </a>
             ))}
-            <button className="btn-primary flex items-center space-x-2">
-              <Heart className="h-4 w-4" />
-              <span>Get Started</span>
-            </button>
           </div>
 
           {/* Mobile menu button */}
@@ -70,10 +66,6 @@ export default function Header() {
                   {item.name}
                 </a>
               ))}
-              <button className="btn-primary w-full flex items-center justify-center space-x-2 mt-4">
-                <Heart className="h-4 w-4" />
-                <span>Get Started</span>
-              </button>
             </div>
           </div>
         )}

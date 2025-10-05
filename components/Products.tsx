@@ -68,10 +68,18 @@ export default function Products() {
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
             Explore Our <span className="bg-gradient-to-r from-primary-600 to-wellness-600 bg-clip-text text-transparent">Natural Flavors</span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-4">
             Each S2H4 inhaler is carefully crafted with premium natural oils 
             to deliver authentic flavors and wellness benefits.
           </p>
+          <div className="bg-primary-50 border border-primary-200 rounded-xl p-4 max-w-2xl mx-auto mt-6">
+            <p className="text-primary-800 font-semibold mb-2">
+              🚀 Launching Soon on Amazon!
+            </p>
+            <p className="text-gray-700 text-sm">
+              For more details, contact us at <a href="mailto:s2h4.inhaler@gmail.com" className="text-primary-600 hover:text-primary-700 font-medium underline">s2h4.inhaler@gmail.com</a>
+            </p>
+          </div>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
