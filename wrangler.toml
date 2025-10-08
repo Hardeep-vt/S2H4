@@ -1,7 +1,0 @@
-name = "s2h4-website"
-compatibility_date = "2025-10-08"
-pages_build_output_dir = "./out"
-
-[site]
-bucket = "./out"
-
