@@ -1,0 +1,10 @@
+{
+  "name": "S2H4 Wellness",
+  "short_name": "S2H4",
+  "description": "Smokeless Wellness Inhalers - Natural aromatherapy",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0ea5e9"
+}
+
