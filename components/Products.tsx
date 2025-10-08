@@ -77,7 +77,7 @@ export default function Products() {
               🚀 Launching Soon on Amazon!
             </p>
             <p className="text-gray-700 text-sm">
-              For more details, contact us at <a href="mailto:s2h4.inhaler@gmail.com" className="text-primary-600 hover:text-primary-700 font-medium underline">s2h4.inhaler@gmail.com</a>
+              For more details, contact us at <a href="mailto:s2h4.wellness@gmail.com" className="text-primary-600 hover:text-primary-700 font-medium underline">s2h4.wellness@gmail.com</a>
             </p>
           </div>
         </div>
