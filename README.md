@@ -70,6 +70,11 @@ S2H4 represents the future of wellness through innovative smokeless inhaler tech
 
 For instructions on adding your product photos and logo, see [IMAGE_GUIDE.md](IMAGE_GUIDE.md)
 
+## Live Site
+
+Visit our website at your custom domain or Cloudflare Pages URL!
+
 ---
 
 Built with ❤️ for wellness and innovation.
+Deployed on Cloudflare Pages.
