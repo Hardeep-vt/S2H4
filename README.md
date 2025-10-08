@@ -13,12 +13,11 @@ A modern, responsive website for S2H4, showcasing natural smokeless inhalers tha
 
 ## Tech Stack
 
-- **Framework**: Next.js 14 with App Router
+- **Framework**: Next.js 14 with App Router (Static Export)
 - **Styling**: Tailwind CSS with custom design system
 - **Icons**: Lucide React
-- **Animations**: Framer Motion
 - **TypeScript**: Full type safety
-- **Deployment**: Vercel-ready configuration
+- **Deployment**: Cloudflare Pages
 
 ## Getting Started
 
@@ -37,11 +36,26 @@ A modern, responsive website for S2H4, showcasing natural smokeless inhalers tha
 
 ## Deployment
 
-This project is configured for easy deployment on Vercel:
+This project is configured for Cloudflare Pages deployment:
 
-1. **Connect your GitHub repository** to Vercel
-2. **Deploy automatically** - Vercel will detect the Next.js configuration
-3. **Custom domain** - Add your domain in Vercel settings
+### **Deploy to Cloudflare Pages:**
+
+1. **Push your code to GitHub** (already done)
+2. Go to https://dash.cloudflare.com
+3. Navigate to **Workers & Pages** → **Pages**
+4. Click **Create application** → **Connect to Git**
+5. Select your **S2H4** repository
+6. Configure build settings:
+   - **Build command**: `npm run build`
+   - **Build output directory**: `out`
+7. Click **Save and Deploy**
+
+### **Custom Domain:**
+- Add your custom domain in Cloudflare Pages settings
+- Cloudflare will automatically configure DNS
+
+### **Build Configuration:**
+The project uses Next.js static export (`output: 'export'`) which generates static HTML files perfect for Cloudflare Pages.
 
 ## Project Structure
 
